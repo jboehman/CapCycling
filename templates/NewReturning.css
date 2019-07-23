@@ -1,0 +1,76 @@
+#Capital {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: lightskyblue;
+    font-size: 80px;
+    
+}
+
+#CapCycling {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+#Jumbo {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+#body {
+    background-color: lightskyblue;
+}
+
+#ThankYou {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    background-color: lightskyblue;
+
+}
+
+#PleaseEnter {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    background-color: lightskyblue;
+}
+
+#Description {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+#topHeader {
+    border: 2px solid white;
+}
+
+#midHeader {
+    border: 2px solid white;
+}
+
+
+#Submit {
+    height: 40px;
+    border: white;
+    border-radius: 15px;
+    
+}
+
+#EmailRow {
+    text-align: center;
+}
+
+#Email {
+    text-align: center;
+}
+
+#Logo {
+    border-radius: 50px;
+    
+}
+

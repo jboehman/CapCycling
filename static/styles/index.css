@@ -1,0 +1,132 @@
+#Capital {
+    background-color: lightskyblue;
+    text-align: center;
+    
+}
+
+#CapCycling {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+
+#body {
+    background-color: lightskyblue;
+}
+
+#Region {
+    text-align: center;
+}
+
+#Description {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#CompSumm {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Location {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#CustInfo {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#topHeader {
+    border: 2px solid white;
+}
+
+#midHeader {
+    border: 2px solid white;
+}
+
+#textAreas {
+    text-align: center;
+}
+
+#CustLine {
+    border-top: 6px double #8c8b8b;
+}
+
+#FirstName {
+    height: 20px;
+    width: 15px; 
+    padding: 10px;
+}
+
+#MiddleInit {
+    height: 20px;
+    width: 20;
+    padding: 10px;
+}
+
+#LastName {
+    height: 20px;
+    width: 20;
+}
+
+#StreetName {
+    height: 20px;
+    width: 40;
+}
+
+#City {
+    height: 20px;
+    width: 20
+}
+
+#State {
+    height: 20px;
+    width: 20;
+}
+
+#Zip {
+    height: 20px;
+    width: 20;
+}
+
+#Phone {
+    height: 20px;
+    width: 20;
+}
+
+#Email {
+    height: 20px;
+    width: 20;
+}
+
+#Submit {
+    height: 40px;
+    border: white;
+    border-radius: 15px;
+    
+}
+
+#Submit:hover {background-color: #3e8e41}
+
+.Submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#thankYou {
+    color: white;
+    padding: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Logo {
+    border-radius: 50px;
+    
+}
+

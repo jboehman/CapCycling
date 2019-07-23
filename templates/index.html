@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}" type="text/css"/>
+    <!-- Modal /alerts -->
+
+    
+    <title>Capital Cycling</title>
+</head>
+
+
+<script>
+    function submit() {
+  document.getElementById("thankYou").innerHTML = "Thank you!";
+}
+</script>
+
+<script>
+    function showAlert() {
+        window.alert("Thank you! Keep on the lookout for information on upcoming discounts!");
+    }
+    
+</script> 
+
+<!-- If Email isn't entered upon submission, make phoen required -->
+<script>
+    if (document.getElementById("Email" == "")) {
+        document.getElementById("Phone") == "Please enter phone."
+    }
+</script>
+
+
+
+
+<div id="Capital">
+        <h1 class="display-4" id="CapCycling">Capital Cycling</h1>
+        <p class="lead" id="Description">Supports all customers' cycling needs from the novice to the expert; the commuter to the mountain biker</p>
+        <p id="Location">Headquartered in Richmond, VA</p>
+        <hr class="my-4" width="800" id="topHeader">
+          
+        </p>
+</div>
+
+<body id="body">
+    
+
+<div class="container">
+
+        
+    
+        <div class="container" id="Logo">
+          <img src="{{url_for('static', filename='CyclingLogo.png')}}" alt="Bicycle" style="display:block; margin-left:auto; margin-right: auto;" class="wdn-stretch rounded-corners" id="Logo"
+          border-radius="25">
+          <!-- <img src="/Users/jboehman/Downloads/CyclingLogo.png" alt="Bicycle" style="display:block; margin-left:auto; margin-right: auto;" class="img-thumbnail"> -->
+                
+        </div>
+        <br>
+        
+
+    <div id="textAreas">
+            <p class="lead" id="CustInfo" >Customer Information</p>
+            <hr class="my-4" width="400" id="midHeader">
+           
+        <form action="/result" method="POST">
+            <form class="form-inline">
+            <div class="form-row justify-content-center">
+        <div class="col-md-3">
+            
+            <div class="form-group">
+                <input type="text" class="form-control" id="FirstName" name ='FirstName' placeholder="First Name" size="20" required>
+                <input type="text" class="form-control" id="MiddleInit" name ="MiddleInit" placeholder="Middle Initial (Optional)">
+                <input type="text" class="form-control" id="LastName" placeholder="Last Name" name="LastName" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="StreetName" name = "StreetName" placeholder="Street Address" >
+                <input type="=text" class="form-control" id="City" name = "City" placeholder="City">
+                <input type="text" class="form-control" id="Zip" placeholder="Zip Code" name="Zip">
+                <input type="text" class="form-control" id="State" placeholder="State" name="State">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="Phone" placeholder="Phone Number" name="Phone">
+                <input type="text" class="form-control" id="Email" placeholder="Email Address" name="Email" required>
+            </div>
+            <br>
+            <div class="form-group">
+                    <button class="btn btn-primary" type="submit" id="Submit" onclick="">Submit</button>
+            </div>
+            <br>
+            <div class="form-group">
+                    <span class="label success" id="thankYou"></span>
+            </div>
+
+
+        </div>
+    </div>
+</form>
+        </form>
+
+
+    </div>
+</div>
+  
+
+</body>
+
+</html>
+

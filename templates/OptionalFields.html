@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Additional Information</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- BootSnipp -->
+    <script src="jquery/jquery.min.js"></script>
+		<!---- jquery link local dont forget to place this in first than other script or link or may not work ---->
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!---- boostrap.min link local ----->
+		
+		<link rel="stylesheet" href="css/style.css">
+		<!---- boostrap.min link local ----->
+
+		<script src="js/bootstrap.min.js"></script>
+		<!---- Boostrap js link local ----->
+		
+		<link rel="icon" href="images/icon.png" type="image/x-icon" />
+		<!---- Icon link local ----->
+		
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<!---- Font awesom link local ----->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Users/jboehman/Documents/Python practice/static/styles/OptionalFields.css" type="text/css">
+  </head>
+  <body id="body">
+      
+        <div class="container-fluid">
+                <div class="container">
+                        <img src="/Users/jboehman/Documents/Python practice/static/NiceLogo.png" height="200" width="400" id="Logo" style="display:block; margin-left:auto; margin-right: auto;">
+                      
+                     <hr>
+                    <div class="row">
+                        <div class="col-md-5">
+                             <form role="form" method="post" action="register.php">
+                                <fieldset>							
+                                    <p class="text-uppercase pull-center" id="JoinUs">Thank you for filling out our optional fields!</p>
+                                    <div class="form-group">
+                                            <input type="text" name="Income" id="Income" class="form-control input-lg" placeholder="Income">
+                                        </div>
+                                    
+                                     <div class="form-group">
+                                        <input type="date" name="DateOfBirth" id="DateOfBirth" class="form-control input-lg" placeholder="Date Of Birth (MM/DD/YYYY)">
+                                    </div>
+        
+                                   
+                                   
+                                    
+                                    
+                                     
+                                </fieldset>
+                            </form>
+                        </div>
+                        
+                        <div class="col-md-2">
+                                <!-------null------>
+                            </div>
+                        
+                        <div class="col-md-5">
+                                <form role="form" onsubmit="checkFields()">
+                                
+                                <fieldset>							
+                                    <p class="text-uppercase" id="ContactInfo"> Personal Information</p>	
+                                        
+                                    <div class="form-group">
+                                            
+                                                
+                                                
+                                                <div class="row">
+                                                    &nbsp;&nbsp;&nbsp;
+                                                     <!-- <div class="dropdown">
+                                                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownGender" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="selectGender()"><span>
+                                                              Gender</span>
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                              
+                                                              <a class="dropdown-item" href="#">Male</a>
+                                                              <a class="dropdown-item" href="#">Female</a>
+                                                              <a class="dropdown-item" href="#">Other</a>
+                                                              <a class="dropdown-item" href="#">Prefer not to specify</a>
+                                                              
+                                                            </div>
+                                                          </div> -->
+                                                        
+                                                          <select name="Gender" id="Gender" style="height:40px;">
+                                                            <option value="" selected="selected">Select Gender</option>
+                                                            <option value="Male">Male</option>
+                                                            <option value="Female">Female</option>
+                                                            <option value="Other">Other</option>
+                                                            <option value="NotSpec">Prefer not to specify</option>
+                                                          </select>
+                                                        
+                                                          
+
+                                                          
+
+                                    <!-- </div> -->
+                                    &nbsp; &nbsp;
+                                    <!-- <div class="form-group"> -->
+                                       
+                                                
+                                               
+                                                
+                                                        
+                                                        <select name="Marital" id="Marital" class="" height="10">
+                                                            <option value="" selected="selected">Marital Status</option>
+                                                            <option value="Male">Married</option>
+                                                            <option value="Female">Unmarried</option>
+                                                            <option value="Other">Other</option>
+                                                            <option value="NotSpec">Prefer not to specify</option>
+                                                        </select>
+                                                      
+                                                    </div>
+                                                
+                                                    
+                                    </div>
+                                    
+                                    
+                                         
+                                 </fieldset>
+                            </form>	
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                                        
+                            
+
+                            <input type="submit" class="btn btn-lg btn-primary" value="Submit" onclick="checkFields()">
+                        </div>
+
+                </div>
+                <p class="text-center">
+                    <small id="passwordHelpInline" class="text-muted"><a></a>Located in Richmond, VA <a href="https://v4-alpha.getbootstrap.com/"></a></small>
+                </p>
+
+               
+            </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
